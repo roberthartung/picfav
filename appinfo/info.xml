@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>picfav</id>
+    <name>Pic Fav</name>
+    <summary>Make it easy to select your favorite photos</summary>
+    <description><![CDATA[As a photographer selecting photos in collaboration with others (e.g. models) is sometimes hard. This app allows you to provide images to your friends and customers and let them choose their favorites.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="picfav-nextcloud@roberthartung.de" homepage="https://github.com/roberthartung/">Robert Hartung</author>
+    <namespace>PicFav</namespace>
+    <category>organization</category>
+    <bugs>https://github.com/roberthartung/picfav/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Pic Fav</name>
+            <route>picfav.page.index</route>
+        </navigation>
+    </navigations>
+</info>

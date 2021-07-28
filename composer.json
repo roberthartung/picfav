@@ -1,0 +1,15 @@
+{
+    "name": "Pic Fav",
+    "description": "Make it easy to select your favorite photos",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Robert Hartung"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
